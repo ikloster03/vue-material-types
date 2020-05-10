@@ -4,6 +4,18 @@ import { PluginFunction } from "vue";
 
 type ExportProperty =
   | "install"
+  | 'MdApp'	
+  | 'MdAutocomplete'	
+  | 'MdBadge'	
+  | 'MdContent'	
+  | 'MdDatepicker'	
+  | 'MdDrawer'	
+  | 'MdElevation'	
+  | 'MdEmptyState'	
+  | 'MdField'	
+  | 'MdHighlightText'	
+  | 'MdRipple'	
+  | 'MdSteppers'	
   | "MdCore"
   | "MdAvatar"
   | "MdBackdrop"
